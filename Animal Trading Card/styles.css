@@ -1,0 +1,43 @@
+body {
+    font-family: 'Dekko', cursive;
+    font-size: 16px;
+}
+.card {
+    width: 340px;    
+    border: rgb(41, 35, 63) double 5px;
+    border-radius: 5px;
+    background-image: url("https://78.media.tumblr.com/96b1da2beba3c209887ca4063606448a/tumblr_p0acv6ZR9Y1wjgffho1_1280.jpg");
+    padding: 5px 10px;
+    color: rgb(39, 4, 4);
+    box-shadow: 5px 5px 10px rgb(39, 4, 4);
+}
+.card h3 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+.card .image {
+  text-align: center;
+}
+.information {  
+    border: black double 5px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.information .facts {
+    font-style: italic;
+}
+
+.information ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.fandom {
+  text-align: right;
+  font-style: italic;
+}
