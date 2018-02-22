@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Dekko', cursive;
     font-size: 16px;
@@ -7,11 +12,12 @@ body {
     border: rgb(41, 35, 63) double 5px;
     border-radius: 5px;
     background-image: url("https://78.media.tumblr.com/96b1da2beba3c209887ca4063606448a/tumblr_p0acv6ZR9Y1wjgffho1_1280.jpg");
-    padding: 5px 10px;
+    padding: 10px 10px;
     color: rgb(39, 4, 4);
     box-shadow: 5px 5px 10px rgb(39, 4, 4);
+    margin: 10px auto;
 }
-.card h3 {
+.card .title {
     font-family: 'Rock Salt', cursive;
     font-size: 32px;
     text-align: center;
@@ -22,10 +28,13 @@ body {
 .information {  
     border: black double 5px;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-align: justify;
 }
 .information .facts {
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .information ul {
@@ -33,8 +42,12 @@ body {
     padding-left: 0;
 }
 
-span {
+.information .point {
     font-weight: bold;
+}
+
+.information .description {
+    margin-top: 10px;
 }
 
 .fandom {
